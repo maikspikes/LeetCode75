@@ -1,4 +1,4 @@
-package exercise4;
+package arrayandstrings.exercise4;
 
 import org.junit.jupiter.api.Test;
 

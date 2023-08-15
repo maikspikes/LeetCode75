@@ -1,4 +1,4 @@
-package exercise4;
+package arrayandstrings.exercise4;
 
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
