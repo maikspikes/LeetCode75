@@ -19,13 +19,16 @@ public class QuicksortTest {
         if (end <= start) {
             return;
         }
-
+        // the partition method will define the pivot
         int pivot = partition(array, start, end);
+        // recursively sorting the elements that are smaller than the pivot and are on the left side of it
         quickSort(array, start, pivot - 1);
+        // recursively sorting the elements that are greater than the pivot and are on the right side of it.
         quickSort(array, pivot + 1, end);
 
     }
     private static int partition(int[] array, int start, int end) {
+        // you start the pivot in the last number
         int pivot = array[end];
         int i = start - 1;
 
@@ -37,7 +40,7 @@ public class QuicksortTest {
                 array[j] = temp;
             }
         }
-        // this is the end of the j loop, so it changes with the pivot, and I will increase!
+        // this is the end of the j loop, so it exchanges its value with the value of the pivot, and "i" will increase!
         i++;
         int temp = array[i];
         array[i] = array[end];
