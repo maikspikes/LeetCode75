@@ -1,0 +1,21 @@
+1. Insertion Sort Algorithm
+During each iteration of the insertion sort, the algorithm chooses the first element of the unsorted array and compares
+it to the elements in the sorted part.
+If we find a comparatively greater element, we shift it up one position until we reach the correct position for the selected element.
+We repeat this process for each element in the unsorted part until we sort the entire list.
+Now, let’s understand the step-by-step process of the insertion sort algorithm.
+
+1.	Take an array of n unsorted elements.
+2.	Begin by selecting the second element in the array and comparing it to the first element. If the second element is less than the first, swap them.
+3.	Next, examine the third element in the array and compare it to the second element. If the third element is less than the second, swap them.
+Otherwise, if the third element is equal to or greater than the second element, leave it in its current position.
+4.	Continue to perform step 3 for each element in the array until you reach the final element.
+5.	Once you properly position the final element, the array will partially sort, and the smallest element will be at the beginning of the array.
+6.	Proceed to the second element in the array and compare it to the first element. If the second element is less than the first, swap them.
+7.	Continue performing step 6 on each element in the partially sorted array until you reach the final element.
+8.	Repeat steps 5 to 7 until you have sorted the entire array.
+After the whole process, the array is sorted.
+
+----------------
+
+
