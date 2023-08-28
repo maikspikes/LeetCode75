@@ -8,7 +8,7 @@ public class Solution2 {
         int secondmin = Integer.MAX_VALUE;
 
         for (int num : nums) {
-            if (num <= firstmin){
+            if (num <= firstmin) {
                 firstmin = num;
             } else if (num <= secondmin) {
                 secondmin = num;
