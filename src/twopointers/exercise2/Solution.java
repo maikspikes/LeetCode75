@@ -1,6 +1,7 @@
 package twopointers.exercise2;
 
 class Solution {
+    // One pointer moves at a slow pace while the other pointer moves at a faster pace
 
     public static boolean isSubsequence(String s, String t) {
         int sPointer = 0;

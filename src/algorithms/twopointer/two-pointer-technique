@@ -1,0 +1,17 @@
+2. Technique Description
+
+In many problems involving arrays or lists, we have to analyze each element of the array compared to its other elements.
+To solve problems like these we usually start from the first index and loop through the array one or more times depending on our implementation.
+Sometimes, we also have to create a temporary array depending on our problem's requirements.
+The above approach might give us the correct result, but it likely won't give us the most space- and time-efficient solution.
+As a result, it is often good to consider whether our problem can be solved efficiently by using the two-pointers approach.
+
+
+In the two-pointer approach, pointers refer to an array's indexes. By using pointers, we can process two elements per loop, instead of just one.
+Common patterns in the two-pointer approach involve:
+
+- Two pointers each starting from the beginning and the end until they both meet
+- One pointer moves at a slow pace while the other pointer moves at a faster pace
+
+Both of the above patterns can help us to reduce the time and space complexity of our problems as we get the expected
+result in fewer iterations and without using too much additional space.
